@@ -1,0 +1,19 @@
+api:
+  gin_mode: "release"
+  addr: ":8080"
+  read_timeout: 20
+  write_timeout: 20
+  idle_timeout: 60
+
+postgres:
+  host: "localhost"
+  port: 5432
+  user: "shortener"
+  password: "shortener"
+  dbname: "shortener"
+  sslmode: "disable"
+
+redis:
+  addr: "localhost:6379"
+  password: ""
+  db: 0
